@@ -49,6 +49,9 @@ import {
 } from "lucide-react";
 import { Calendar } from "@/components/ui/calendar";
 import { KartGameCanvas } from "@/components/KartGameCanvas";
+import sceneImage from "@/assets/workspace-scene.svg";
+import founderPortrait from "@/assets/founder-portrait.svg";
+import osEmblem from "@/assets/os-emblem.svg";
 
 type AppKey = "work" | "about" | "notes" | "contact" | "proof" | "journey" | "play" | "terminal" | "casefiles";
 type CaseTab = "cases" | "notes";
@@ -85,11 +88,11 @@ const NOW_PLAYING_TRACKS = [
 ] as const;
 
 const WORKSPACE_SCENES = [
-  { id: "sunset-studio", image: "/workspace-scene.svg", portrait: "/founder-portrait.svg" },
-  { id: "daylight-desk", image: "/workspace-scene.svg", portrait: "/founder-portrait.svg" },
-  { id: "sunset-atelier", image: "/workspace-scene.svg", portrait: "/founder-portrait.svg" },
-  { id: "daylight-atelier", image: "/workspace-scene.svg", portrait: "/founder-portrait.svg" },
-  { id: "night-atelier", image: "/workspace-scene.svg", portrait: "/founder-portrait.svg" },
+  { id: "sunset-studio", image: sceneImage, portrait: founderPortrait },
+  { id: "daylight-desk", image: sceneImage, portrait: founderPortrait },
+  { id: "sunset-atelier", image: sceneImage, portrait: founderPortrait },
+  { id: "daylight-atelier", image: sceneImage, portrait: founderPortrait },
+  { id: "night-atelier", image: sceneImage, portrait: founderPortrait },
 ] as const;
 
 function PixelGlyph({ glyph }: { glyph: ToolbarSpriteKey }) {
@@ -633,7 +636,7 @@ export default function Home() {
           <button className="boot-skip" type="button" onClick={skipBoot}>SKIP BOOT <ArrowUpRight size={13} /></button>
           <div className="boot-console">
             <div className="boot-identity">
-              <div className="boot-emblem" aria-hidden="true"><img src="/os-emblem.svg" alt="" /></div>
+              <div className="boot-emblem" aria-hidden="true"><img src={osEmblem} alt="" /></div>
               <div><p>SUJAY KARKERA OS</p><span>V1.0 · FOUNDER EDITION</span></div>
             </div>
             <div className="boot-terminal">
@@ -662,7 +665,7 @@ export default function Home() {
 
       <header className="system-bar">
         <button className="wordmark" type="button" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} aria-label="Return to Sujay Karkera OS desktop">
-          <img src="/os-emblem.svg" alt="" />
+          <img src={osEmblem} alt="" />
           <span>SUJAY KARKERA OS</span><span className="wordmark-caret">⌄</span>
         </button>
         <nav className="primary-nav" aria-label="Primary navigation">
