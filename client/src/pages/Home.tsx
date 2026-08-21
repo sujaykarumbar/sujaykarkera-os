@@ -85,11 +85,11 @@ const NOW_PLAYING_TRACKS = [
 ] as const;
 
 const WORKSPACE_SCENES = [
-  { id: "sunset-studio", image: "/manus-storage/sujay-os-studio-workbench_152253a7.png", portrait: "/manus-storage/sujay-founder-sand_c96cb78f.png" },
-  { id: "daylight-desk", image: "/manus-storage/sujay-os-daylight-workspace_7fb3a8e9.png", portrait: "/manus-storage/sujay-founder-black_cb916f64.png" },
-  { id: "sunset-atelier", image: "/manus-storage/sujay-scene-sunset_1e4d0942.png", portrait: "/manus-storage/sujay-founder-ink-layered_a55b5d96.png" },
-  { id: "daylight-atelier", image: "/manus-storage/sujay-scene-daylight_54d828b7.png", portrait: "/manus-storage/538f5b5b-5670-4b9f-ae90-cb589ea052cb_6adac9d6.png" },
-  { id: "night-atelier", image: "/manus-storage/sujay-scene-night_84110867.png", portrait: "/manus-storage/8786a62b-32ac-4837-b892-8342c48dd90a_51337e8e.png" },
+  { id: "sunset-studio", image: "/workspace-scene.svg", portrait: "/founder-portrait.svg" },
+  { id: "daylight-desk", image: "/workspace-scene.svg", portrait: "/founder-portrait.svg" },
+  { id: "sunset-atelier", image: "/workspace-scene.svg", portrait: "/founder-portrait.svg" },
+  { id: "daylight-atelier", image: "/workspace-scene.svg", portrait: "/founder-portrait.svg" },
+  { id: "night-atelier", image: "/workspace-scene.svg", portrait: "/founder-portrait.svg" },
 ] as const;
 
 function PixelGlyph({ glyph }: { glyph: ToolbarSpriteKey }) {
@@ -633,7 +633,7 @@ export default function Home() {
           <button className="boot-skip" type="button" onClick={skipBoot}>SKIP BOOT <ArrowUpRight size={13} /></button>
           <div className="boot-console">
             <div className="boot-identity">
-              <div className="boot-emblem" aria-hidden="true"><img src="/manus-storage/sujay-os-emblem_7a57c930.png" alt="" /></div>
+              <div className="boot-emblem" aria-hidden="true"><img src="/os-emblem.svg" alt="" /></div>
               <div><p>SUJAY KARKERA OS</p><span>V1.0 · FOUNDER EDITION</span></div>
             </div>
             <div className="boot-terminal">
@@ -662,7 +662,7 @@ export default function Home() {
 
       <header className="system-bar">
         <button className="wordmark" type="button" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} aria-label="Return to Sujay Karkera OS desktop">
-          <img src="/manus-storage/sujay-os-emblem_7a57c930.png" alt="" />
+          <img src="/os-emblem.svg" alt="" />
           <span>SUJAY KARKERA OS</span><span className="wordmark-caret">⌄</span>
         </button>
         <nav className="primary-nav" aria-label="Primary navigation">
