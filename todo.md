@@ -1,0 +1,48 @@
+# Sujay Karkera OS — Enhancement Checklist
+
+- [x] Add Vercel build, static-routing, and deployment metadata so Sujay OS can be deployed through Vercel.
+- [ ] Prepare a GitHub-ready project state and coordinate Vercel deployment access for Sujay OS.
+- [ ] Push the complete Sujay OS project to https://github.com/sujaykarumbar/sujaykarkera-os.git on the main branch.
+- [ ] Create and deliver a clean downloadable ZIP of the Sujay OS source folder.
+- [x] Generate a transparent-background retro pixel-art icon sheet containing only the active Sujay OS desktop and toolbar utilities.
+- [x] Add an explicit, keyboard-friendly Back to Desktop control to the Kart Arena race window.
+- [x] Redesign desktop shortcut objects around the supplied illustrated pixel-icon reference, with framed labels and concise metadata beneath each shortcut.
+- [x] Update every portfolio destination to https://sujaykarkera-liart.vercel.app/.
+- [x] Remove the Founder Mode decorative frame and background panel so only the supplied cartoon-style portrait remains visible.
+- [x] Improve Founder Mode portrait clarity through stronger contrast, separation, and screen framing while preserving the supplied artwork.
+- [x] Rebuild the bottom-edge quick-launch toolbar around the supplied wide cream pixel-command-strip reference, with illustrated shortcuts, separators, and readable hover labels.
+- [x] Increase desktop shortcut icon scale and add matching emoji markers without diluting the warm pixel-art OS language.
+- [x] Remove the Daily Transmission panel, remove Voice AI, Namma Bus, and Data Lab from the desktop, replace any non-rendering launcher imagery with pixel sprites, and streamline the toolbar.
+- [x] Expand Kart Arena into a larger animated race circuit with lap progression, clearer racing feedback, and preserved keyboard controls.
+- [x] Add a writable Whiteboard window with persistent sticky notes and a dedicated WHITEBOARD desktop icon.
+- [x] Add a playable Sujay OS arcade kart game, including a GAME desktop icon that opens the game in an interactive window with keyboard controls.
+- [x] Move the Daily Transmission panel into the right-side desktop zone and make it draggable by cursor without interrupting its quote, close, or sticky-note actions.
+- [x] Restyle desktop shortcuts with the supplied reference’s expressive pixel-icon language and remove empty, redundant, or low-value desktop utilities so every visible shortcut reflects real Sujay content.
+- [x] Add the two newly supplied Founder Mode illustrations to the rotating portrait sequence and reduce the desktop figure scale while preserving the responsive presentation.
+- [x] Redesign the boot sequence as a bright editorial-terminal screen inspired by the supplied reference, retaining Sujay’s identity, loading progress, keyboard-accessible skip action, and reduced-motion fallback.
+- [x] Replace the rotating Founder Mode portrait sequence with the three newly supplied Sujay illustrations and make the shared workspace-to-portrait scene transition more expressive while retaining reduced-motion support.
+- [x] Rotate each supplied workspace background together with its paired supplied Founder Mode portrait every 10 seconds, using a readable, reduced-motion-safe crossfade.
+- [x] Hide the desktop quick-launch dock by default and reveal it only when the cursor reaches the bottom edge, while keeping keyboard focus and the mobile dock usable.
+- [x] Add the supplied workspace scene to a 10-second desktop background rotation with a readable crossfade and a reduced-motion-safe fallback.
+- [x] Add functional local play, pause, previous, and next controls to the Now Playing module; add a dark-mode sprite palette; persist favorite tracks in OS Preferences; and package the workflow as a reusable skill.
+- [x] Replace quick-launch line icons with a cohesive custom pixel-art sprite set and add a compact now-playing music-status widget to the ivory toolbar.
+- [x] Rework the quick-launch toolbar to match the supplied reference: wide ivory dock, dark pixel outline, even icon rhythm, utility divider, and responsive behavior.
+- [x] Replace Founder Mode with the newly supplied full-body portrait and tune the desktop frame so the figure’s scale and crop suit the workroom composition.
+- [x] Add subtle, reduced-motion-safe Happy and Sad visual transitions to the Player 01 Founder Mode portrait when the companion controls are toggled.
+- [x] Integrate the user-supplied full-body portrait as the responsive Player 01 / Founder Mode visual while retaining the reference-aligned companion controls.
+- [x] Refine the Player 01 companion to match the supplied reference: compact left-side character, two equal Happy/Sad controls, a full-width Sound control, and reference-like spacing at desktop and mobile sizes.
+- [x] Replace the companion control panel with pixel-style Happy, Sad, and Sound On controls modeled on the supplied reference image.
+- [x] Add a full retro Calendar app with a real month grid, selected-day details, and a booking action that opens an email to sujaykarkera5@gmail.com; verify desktop and mobile layouts.
+- [x] Recompose the Sujay desktop around the supplied reference: a left app field within a warm interior, large sunset window, CRT desk vignette, compact mascot, and full-height interactive Player 01 area; verify desktop and mobile hierarchy.
+- [x] Correct the live-reference gaps: project-specific desktop actions, an interactive Sujay desktop companion, and a less intrusive optional quick-launch shelf while retaining Sujay’s data.
+- [x] Add an OS Preferences control that toggles the quick-launch toolbar between always-visible and auto-hide-on-scroll modes, remembering the visitor’s selection; verify desktop and mobile entry points.
+- [x] Make the desktop quick-launch toolbar pop into view while scrolling and recede after idle time, without hiding it from hover or keyboard users; include a static reduced-motion fallback.
+- [x] Add a pixel-art quick-launch toolbar modeled on the supplied reference, routing to Sujay’s work, archive, contact, portfolio, and system utilities; verify persistent desktop placement and mobile fallback.
+- [x] Add a subtle full-desktop CRT layer with fine scanlines, restrained flicker, and a reduced-motion fallback; confirm desktop and mobile readability.
+- [x] Add an accessible retro boot-up sequence with staged status lines, a skip option, and a smooth desktop reveal; verify the boot panel and completed desktop state.
+- [x] Compare the current Sujay Karkera OS composition and interactions against shreyasraj.com, then apply the highest-impact reference-fidelity refinements while retaining Sujay’s actual data.
+- [x] Collect Sujay’s public portfolio, project destinations, and primary email; social profile currently available: GitHub (https://github.com/sujaykarumbar).
+- [x] Create the dedicated Case Files workspace for actual case studies and field notes, populated from Sujay’s public portfolio and GitHub repositories.
+- [x] Replace placeholder contact and project destinations with Sujay’s portfolio URL, primary email, and verified GitHub profile.
+- [x] Implement accessible draggable and resizable behavior for desktop app windows, with clear drag and resize affordances and a touch-safe mobile fallback.
+- [x] Verify the updated desktop and mobile layouts, then checkpoint and deliver the revision.
