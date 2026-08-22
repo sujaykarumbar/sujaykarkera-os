@@ -49,8 +49,6 @@ import {
 } from "lucide-react";
 import { Calendar } from "@/components/ui/calendar";
 import { KartGameCanvas } from "@/components/KartGameCanvas";
-import sceneImage from "@/assets/workspace-scene.svg";
-import founderPortrait from "@/assets/founder-portrait.svg";
 import osEmblem from "@/assets/os-emblem.svg";
 
 type AppKey = "work" | "about" | "notes" | "contact" | "proof" | "journey" | "play" | "terminal" | "casefiles";
@@ -88,11 +86,11 @@ const NOW_PLAYING_TRACKS = [
 ] as const;
 
 const WORKSPACE_SCENES = [
-  { id: "sunset-studio", image: sceneImage, portrait: founderPortrait },
-  { id: "daylight-desk", image: sceneImage, portrait: founderPortrait },
-  { id: "sunset-atelier", image: sceneImage, portrait: founderPortrait },
-  { id: "daylight-atelier", image: sceneImage, portrait: founderPortrait },
-  { id: "night-atelier", image: sceneImage, portrait: founderPortrait },
+  { id: "sunset-studio", image: "/01-sunset-studio.png", portrait: "/01-founder-sand.png" },
+  { id: "daylight-desk", image: "/02-daylight-desk.png", portrait: "/02-founder-black.png" },
+  { id: "sunset-atelier", image: "/03-sunset-atelier.png", portrait: "/03-founder-ink-layered.png" },
+  { id: "daylight-atelier", image: "/04-daylight-atelier.png", portrait: "/04-founder-portrait.png" },
+  { id: "night-atelier", image: "/05-night-atelier.png", portrait: "/05-founder-portrait-night.png" },
 ] as const;
 
 function PixelGlyph({ glyph }: { glyph: ToolbarSpriteKey }) {
